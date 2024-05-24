@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+  @font-face{
+    font-family:"Outfit-ExtraBold";
+    src: url('Outfit-ExtraBold.ttf');
+  }
+  @font-face{
+    font-family:"Outfit-Medium";
+    src: url('Outfit-Medium.ttf');
+  }
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  body{
+    background:#d5e1ef;
+    margin:0;
+    padding:0;
+  }
+  .container{
+     display:grid;
+    place-items:center;
+    height:100vh;
+  }
+  img{
+    height:200px;
+    width:14em;
+    border-radius:10px;
+    }
+  .card{
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:16em;
+    background:white;
+  }
+  h1{
+    margin-bottom:20px;
+    overflow:hidden;
+    font-size:17px;
+    color: hsl(218, 44%, 22%);
+    font-family:"Outfit-ExtraBold";
+  }
+  p{
+    font-size:15px;
+    font-family:"Outfit-Medium";
+    color: hsl(220, 15%, 55%);
+  }
+    .attribution { font-size: 11px; text-align: center; position:fixed;bottom:0;margin:10px;text-align:center;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="img">
+        <img src="image-qr-code.png" alt="">
+        <section>
+          <h1>Improve your frontend
+          skills by building projects</h1>
+          <p>Scan the qr code to visit frontend mentor and take your coding skills to next levels</p>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+    Coded by <a href="#">Somnath Pan</a>.
+  </div>
+</body>
+</html>
